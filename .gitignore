@@ -1,0 +1,30 @@
+# 用户数据 —— 绝不入库
+memory.db
+memory.db-wal
+memory.db-shm
+memory.db-*
+
+# 密钥
+config.yaml
+
+# 日志与现场
+logs/
+extract_debug/
+relay_dump/
+ld_requests.log
+silly.log
+memory_serve.log
+
+# 备份
+*.bak
+*.bak_*
+*.bak-*
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
